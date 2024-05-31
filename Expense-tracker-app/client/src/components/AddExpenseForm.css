@@ -1,0 +1,46 @@
+.container{
+    margin-top: 50px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.header {
+    background-color: #fdeb9a;
+}
+
+.header p{
+    margin : 0;
+}
+
+.btn_div{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.btn_div .btn{
+    margin: 10px;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fdeb9a;
+    border-radius: 0;
+    border : black;
+    color: black;
+}
+
+.form-control{
+    max-width: 444px;
+    border: none;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+}
+
+.form-control:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
+
